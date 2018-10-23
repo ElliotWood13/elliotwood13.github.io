@@ -58,7 +58,7 @@ ul {
 }
 
 .liststyle:hover {
-    text-decoration: underline red;
+    outline: 0.1px solid #da1212;
     padding: 5px;
 }
 
