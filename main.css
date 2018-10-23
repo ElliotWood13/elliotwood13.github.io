@@ -72,6 +72,7 @@ ul {
 }
 /* END OF SIDE BAR */
 
+
 /* START OF CONTAINER */
 
 .container {
@@ -81,7 +82,42 @@ ul {
 
 /* END OF CONTAINER */
 
+
+ /*****************************************************************************************/
+/*****************************************************************************************/
+/********************** ABOUT ON INDEX *******************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
+.aboutcontainer {
+    background: #fafafa;
+    height: 400px;
+    /*border-bottom: 0.5px solid grey;*/
+}
+
+.sidebar {
+    background: white;
+}
+
+.aboutheader {
+    margin-left: 26.5%;
+    padding: 65px 0px 0px 0px;
+    width: 73.5%;
+}
+
+
+/*****************************************************************************************/
+/*****************************************************************************************/
+/**********************PORTFOLIO PAGE*******************/
+/*****************************************************************************************/
+/*****************************************************************************************/
+
 /* PORTFOLIO IMAGE LAYOUT AND SIZES */
+
+.headerpadding {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
 
 .container img {
     height: 300px;
@@ -94,9 +130,9 @@ ul {
 }
 
 .portfolioitem {
-        border: 10px solid transparent;
-        font-family: "Montserrat", Arial, sans-serif;
-        text-align: center;
+    border: 10px solid transparent;
+    font-family: "Montserrat", Arial, sans-serif;
+    text-align: center;
 }
 
 .portfolioitem p {
@@ -114,7 +150,6 @@ ul {
 /* END OF PORTFOLIO */
 
 
-
 /*****************************************************************************************/
 /*****************************************************************************************/
 /**********************CONTACT PAGE*******************/
@@ -124,7 +159,7 @@ ul {
 
 .contactcontainer {
     background: #fafafa;
-    height: 500px;
+    height: 820px;
 }
 
 .sidebar {
@@ -133,6 +168,34 @@ ul {
 
 .contactheader {
     margin-left: 26.5%;
+    padding: 65px 0px 0px 0px;
+    width: 73.5%;
+}
+
+.listlocation {
+    margin-left: 26.5%;
     padding: 1em 0;
     width: 73.5%;
+    font-size: 15px;
+}
+
+.mailicon {
+    height: 25px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapicon {
+    height: 25px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoneicon {
+    height: 25px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
 }
