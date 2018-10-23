@@ -95,6 +95,15 @@ ul {
 
 .portfolioitem {
         border: 10px solid transparent;
+        font-family: "Montserrat", Arial, sans-serif;
+        text-align: center;
+}
+
+.portfolioitem p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* END OF PORTFOLIO */
