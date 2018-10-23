@@ -29,7 +29,8 @@ body {
 
 .sidebar {
 border-right: 1px solid #e6e6e6;
-width: 25%;
+width: 15%;
+height: 100%;
 }
 
 .bar-item {
@@ -47,31 +48,40 @@ ul {
     letter-spacing: .2em;
     font-family: "Montserrat", Arial, sans-serif;
     list-style: none;
+    line-height: 25px;
+}
+
+.liststyle {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.liststyle:hover {
+    text-decoration: underline red;
+    padding: 5px;
 }
 
 .footer {
     position: absolute;
     bottom: 40px;
     font-size: 14px;
-    text-align: center;
     width: 100%;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
 }
 /* END OF SIDE BAR */
 
-.portfolio {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 33%;
+.container {
+    margin-left: 20%;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
 }
 
 .portfolioitem {
-        margin-bottom: 10px;
-        float: left;
         border: 10px solid transparent;
-        transition: 0.5s;
-        height: 300px;
-        width: 300px;
+        
 }
