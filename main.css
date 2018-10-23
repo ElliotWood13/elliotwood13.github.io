@@ -106,4 +106,9 @@ ul {
     text-align: center;
 }
 
+.img-responsive:hover {
+    border: 10px solid grey;
+    transition: 0.5s; 
+}
+
 /* END OF PORTFOLIO */
